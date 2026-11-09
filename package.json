@@ -1,0 +1,15 @@
+{
+  "name": "nimbus-auth-vercel",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Nimbus account server for Vercel + Neon",
+  "engines": {
+    "node": "22.x"
+  },
+  "scripts": {
+    "check": "node --check \"api/[...path].js\""
+  },
+  "dependencies": {
+    "@neondatabase/serverless": "^1.2.0"
+  }
+}
